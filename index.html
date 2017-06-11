@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+        			<span class="sr-only">Toggle navigation</span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+      			</button>
+      			<a class="navbar-brand" href="#">Indian Mandis
+      			</a>
+    		</div>
+    		<div class="collapse navbar-collapse" id="navbar-collapse-1">
+    			<ul class="nav navbar-nav navbar-right">
+    				<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div id="search-div">
+		
+		
+		<div class="navbar-form navbar-left">
+			<div class="row">
+				<div class="col-lg-12">
+					<h1 class='heading'>Enter Your City Name.</h1>	
+				</div>
+			</div>
+            <div class="rahul">
+		  <div class="form-group">
+    		<input id="userInputCity" type="text" class="form-control" placeholder="State">
+    		<input id="userInputitem" type="text" class="form-control" placeholder="Crop">  
+            </div>
+           <button type="submit" class="btn btn-default" id='next'>Next</button>
+            <button type="submit" class="btn btn-default" id='submit'>Submit</button>
+            </div>
+            <div id="showResult"></div>
+		</div>
+	</div>
+
+	<div id="Mandi">
+		<div class="row">
+		<div class="container">
+			<div class="col-sm-12 text-center">
+				<h2>Imformation of Mandies</h2>
+			</div>
+  			<div class="col-sm-4"><h3>Azadpur Sabzi Mandi</h3>
+				<p>A very famous fruit and vegetable market that came into existence in 1977 is the largest Mandi in Asia, Azadpur Sabzi Mandi. It serves as a national distribution centre and was announced as the Market of National Importance in India on Jan 7, 2004. The fruits and vegetables sold here are transported majorly from Himachal Pradesh and Jammu Kashmir.</p></div>
+  			
+  			<div class="col-sm-4">
+  				<h3>Okhla Sabzi Mandi</h3>
+				<p>The hustle bustle in Okhla Sabzi Mandi begins at 5 am and is apparently the biggest vegetable market in Delhi. Established in 1987, this place has over 250 shops of both fruits and vegetables that are shipped from different parts of India. Apart from shops, there are several street vendors also that contribute to the total sales of this Mandi.</p></div>
+  			
+  			<div class="col-sm-4">
+  				<h3>Arya Pura Sabzi Mandi</h3>
+				<p>Another famous sabzi mandi of Delhi is Arya Pura Mandi which is full of varieties of fruits and vegetables. This Mandi also supplies seeds of fruits and veggies to the farmers – Seed suppliers and dealers can often be seen here. </p>
+  			</div>
+		</div>
+		</div>
+	</div>	
+
+	<div id="com-veg">
+		<div class="row">
+			<div class="container">
+				<div class="col-lg-12 text-center">
+					<h2>Common Vegetables</h2>
+				</div>
+				
+				<div class="col-sm-6 text-center">
+					<h4>Onion</h4>
+					<p>The onion, also known as the bulb onion or common onion, is a vegetable and is the most widely cultivated species of the genus Allium. Its close relatives include the garlic, shallot, leek, chive, and Chinese onion.</p>
+				</div>
+
+				<div class="col-sm-6 text-center">
+					<h4>Chili pepper</h4>
+					<p>The chili pepper (also chile pepper or chilli pepper, from Nahuatl chīlli Nahuatl pronunciation: [ˈt͡ʃiːli] (About this sound listen)) is the fruit of plants from the genus Capsicum, members of the nightshade family, Solanaceae.[1] In Australia, Britain, India,[2] Ireland, New Zealand, Pakistan, South Africa, and in other Asian countries, it is usually known simply as chilli.</p>
+				</div>
+
+				<div class="col-sm-6 text-center">
+					<h4>Potato</h4>
+					<p>The potato is a starchy, tuberous crop from the perennial nightshade Solanum tuberosum. The word "potato" may refer either to the plant itself or to the edible tuber.</p>
+				</div>
+
+				<div class="col-sm-6 text-center">
+					<h4>Tomato</h4>
+					<p>The tomato is the edible fruit of Solanum lycopersicum, commonly known as a tomato plant, which belongs to the nightshade family, Solanaceae. The species originated in Central and South America.</p>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+	<div>
+		<div class="row text-center" id="contact">
+			<div class="container" >
+				<div class="col-lg-12">
+					<h2>Contact</h2>
+          <div id="error"></div>
+					<hr>
+				</div>
+
+				<form>
+					<div class="form-group">
+						<input type="text" placeholder="Name" id="name" class="form-control">
+					</div>
+					<div class="form-group">
+						<input type="email" placeholder="Email-Id" id="email" class="form-control">
+					</div>
+					<div class="form-group">
+						<input type="text" placeholder="Subject" id="subject" class="form-control">
+					</div>
+					<div class="form-group">
+						<textarea rows="5" placeholder="Message" id="content" class="form-control"></textarea> 
+					</div>
+				</form>
+        
+        <button type="submit" id="submit" class="btn btn-primary">Submit</button>
+        
+			</div>
+		</div>
+	</div>
+
+	<footer>		
+				<div class="text-center" id="footer-below">	
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-12">
+								Developed by ThreeDev
+							</div>
+						</div>
+					</div>
+				</div>	
+	</footer>
+	<script src="hackthon.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+
+		
+	
+
+</body>
+</html>
